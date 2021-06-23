@@ -53,7 +53,7 @@ const areTrue = (input1, input2) => {
   if (input1 > 0 && input2 > 0) {
     document.getElementById("displayTrue").innerHTML =  ("Those are both positive")
   }
-  if (input1 > 0 || input2 > 0) {
+  else if (input1 > 0 || input2 > 0) {
     document.getElementById("displayTrue").innerHTML =  ("At least one is positive")
   }
   else {
