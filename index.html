@@ -7,9 +7,50 @@
   </head>
   <body>
     <h1>Hello World!</h1>
-    <hr/>
+
+    <hr>
+    <button onclick="displayDate()">Click Me For the Time</button>
     <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
     <hr/>
+    
+    <hr>
+    <label>Number:</label>
+    <input type="number" id="numberToConvert">
+    <button onclick="convertToString()">Convert to String</button></input>
+    <div id="displayElementString"></div>
+    <hr/>
+
+    <hr>
+    <label>String:</label>
+    <input type="text" id="stringToConvert">
+    <button onclick="convertToNumber()">Convert to Number</button></input>
+    <div id="displayElementNumber"></div>
+    <hr/>
+
+    <hr>
+    <label>Any input:</label>
+    <input type="text" id="inputTextNumber">
+    <button onclick="tellType()">Tell Type Of</button></input>
+    <div id="displayElementType"></div>
+    <hr/>
+
+    <hr>
+    <label>1st number:</label>
+    <input type="number" id="inputFirstNumber">
+    <label>2nd number:</label>
+    <input type="number" id="inputSecondNumber">
+    <button onclick="findSum()">Add</button></input>
+    <div id="displaySum"></div>
+    <hr/>
+
+    <hr>
+    <label>input 1:</label>
+    <input type="number" id="inputAny1">
+    <label>input 2:</label>
+    <input type="number" id="inputAny2">
+    <button onclick="areTrue()">Both Positive, Either Positive, Neither Positive?</button></input>
+    <div id="displayTrue"></div>
+    <hr/>
+
   </body>
 </html>
